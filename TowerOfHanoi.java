@@ -7,9 +7,9 @@ public class TowerOfHanoi {
         System.out.println("Tower Of Hanoi");
         System.out.println("Number of disks: " + disks);
 
-        recursiveHanoi(disks, 'A', 'C', 'B');
+        recursiveHanoi(disks, 'A', 'B', 'C');
         System.out.println("");
-        iterativeHanoi(disks, 'A', 'C', 'B');
+        iterativeHanoi(disks, 'A', 'B', 'C');
     }
 
     // Recursive Tower Of Hanoi
